@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>Vanilla Javascript To-do App</title>
+</head>
+<body class="container">
+    <header class="logo">
+        <a href="https://sainik.netlify.app/" target="_blank">
+            <img src="https://cdn.dribbble.com/users/6569/screenshots/16482169/media/de475cb79969a810d45ba9b5d8cbf4a5.png?compress=1&resize=400x300&vertical=top"    alt="" style="width: 140px;height: 140px; border-radius: 50%;">
+        </a>
+        <marquee behavior="scroll" direction="right"><h1>Vanilla JS TO-DO App</h1></marquee>
+        <h3 style="color: white">Total Tasks : <span id="counttot">0</span></h3>
+        <h3 style="color: yellow">Completed Tasks : <span id="countdone">0</span></h3>
+    </header>
+    <div id="main">
+        <form>
+            <input type="text" placeholder="New Todo ...">
+            <button type="submit"><i class="fas fa-plus-square"></i></button>
+        </form>
+        <div class="todoList">
+            <ul>
+            </ul>
+            <a class="clearAll" id="clearAll">Clear All</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

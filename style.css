@@ -1,0 +1,116 @@
+h1{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: wheat;
+    font-size: 50px;
+}
+html{
+    height: 100vh;
+    min-width: 600px;
+    /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background-image: url('https://www.mywebprogrammer.com/wp-content/uploads/2021/06/Custom-UI-UX-Development-Services-Banner.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+}
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1.5rem 0;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.main {
+    padding: 20px;
+}
+
+form {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+input[type="text"] {
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #595959;
+    flex-grow: 1;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: #FFFFFF;
+    outline: 0;
+    border: none;
+    color: #595959;
+}
+
+button:hover {
+    color: lightcoral;
+}
+
+.todoList {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 25px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 0;
+    font-size: 1rem;
+    color: #595959;
+}
+
+i {
+    pointer-events: none;
+}
+
+.todo-item {
+    flex-grow: 1;
+}
+
+.clearAll {
+    display: flex;
+    justify-content: center;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.clearAll:hover {
+    color: lightcoral;
+}
+
+.todo-list-item {
+    transition: all 0.3s ease-out;
+}
+
+.todo-list-item-fall {
+    transform: translateY(12rem) rotateZ(10deg);
+    opacity: 0;
+}
